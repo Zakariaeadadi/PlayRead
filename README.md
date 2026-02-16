@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 🎮📚 PlayRead
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PlayRead est une application web moderne développée avec React permettant de découvrir aléatoirement des jeux 🎮 et des livres 📚 dans une interface simple, élégante et intuitive.
 
-## Available Scripts
+🔗 **Démo en ligne :**  
+https://zakariaeadadi.github.io/PlayRead/
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎮 Génération aléatoire de jeux
+- 📚 Découverte de livres
+- 🔄 Navigation fluide avec React Router
+- 📱 Interface responsive
+- 🎨 Design clair et moderne
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Technologies utilisées
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ React
+- 🧭 React Router (v7)
+- 🎨 CSS
+- 🚀 Déploiement avec GitHub Pages
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Architecture du projet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+src/ ├── components/ ├── pages/ ├── styles/ ├── images/ └── App.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🎯 Objectif du projet
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ce projet a été réalisé afin de :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Pratiquer la gestion de routes avec React Router
+- Structurer une application React proprement
+- Améliorer l'organisation des composants
+- Déployer une application en production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👨‍💻 Auteur
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Zakaria Eadadi  
+Développeur Frontend
