@@ -1,12 +1,12 @@
-import './App.css';
+import '../styles/Games.css';
 
 export default function GameInfo({ game }){
     return (
         <>
-                <div className='game-card'>
+                <div className='game-card-info'>
                     {/* CONTENT */}
                     <div className='game-content'>
-                        <img className='img' src={game.img}/>
+                        <img className='img' src={game.img} alt=''/>
 
                         <div className='game-text'>
                             <h2>{game.name}</h2>

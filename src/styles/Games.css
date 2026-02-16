@@ -1,5 +1,7 @@
-body {
+.body {
+    min-height: 100vh;
     margin: 0;
+    padding: 10px 0;
     font-family: Arial, sans-serif;
     background: #0f172a;
   }
@@ -8,7 +10,7 @@ body {
   .container {
     background: blueviolet;
     border-radius: 20px;
-    margin: 5% auto;
+    margin: auto;
     padding: 30px;
     width: 85%;
     max-width: 800px;
@@ -60,7 +62,7 @@ body {
   }
   
   /* GAME CARD */
-  .game-card {
+  .game-card-info {
     background: #1e293b;
     border-radius: 20px;
     margin: 20px auto;
@@ -98,7 +100,7 @@ body {
     justify-content: center;
   }
   
-  /* 📱 RESPONSIVE */
+  /*RESPONSIVE */
   @media (max-width: 768px) {
     .game-content {
       flex-direction: column;
@@ -110,10 +112,33 @@ body {
     }
   
     .container {
-      width: 95%;
+      width: 85%;
     }
   
-    .game-card {
-      width: 95%;
+    .game-card-info {
+      width: 85%;
     }
+  }
+
+  /* BACK BUTTON */
+  .back-icon {
+    /* position: fixed; */
+    top: 10px;
+    left: 20px;
+    padding: 10px;
+    background: #070a12;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
+    transition: 0.3s;
+  }
+  
+  .back-icon:hover {
+    transform: scale(1.1);
+  }
+
+  .body > button {
+    background: #0f172a;
+    border: none;
   }
