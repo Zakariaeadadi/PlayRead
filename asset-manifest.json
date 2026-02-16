@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PlayRead/static/css/main.ada061df.css",
+    "main.js": "/PlayRead/static/js/main.3e7a03fc.js",
+    "static/js/453.1300a448.chunk.js": "/PlayRead/static/js/453.1300a448.chunk.js",
+    "static/media/Library.jpg": "/PlayRead/static/media/Library.e4408cd38585b3c3d126.jpg",
+    "index.html": "/PlayRead/index.html",
+    "main.ada061df.css.map": "/PlayRead/static/css/main.ada061df.css.map",
+    "main.3e7a03fc.js.map": "/PlayRead/static/js/main.3e7a03fc.js.map",
+    "453.1300a448.chunk.js.map": "/PlayRead/static/js/453.1300a448.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ada061df.css",
+    "static/js/main.3e7a03fc.js"
+  ]
+}
