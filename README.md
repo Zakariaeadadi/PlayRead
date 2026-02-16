@@ -1,6 +1,7 @@
 # 🎮📚 PlayRead
 
-PlayRead est une application web moderne développée avec React permettant de découvrir aléatoirement des jeux 🎮 et des livres 📚 dans une interface simple, élégante et intuitive.
+PlayRead est Une application web React qui suggère des jeux gratuits ou des livres aléatoires en utilisant des API externes.  
+L'utilisateur peut choisir une catégorie ou un tag pour obtenir une suggestion aléatoire avec les détails et l'image correspondante.
 
 🔗 **Démo en ligne :**  
 https://zakariaeadadi.github.io/PlayRead/
@@ -9,11 +10,13 @@ https://zakariaeadadi.github.io/PlayRead/
 
 ## ✨ Fonctionnalités
 
-- 🎮 Génération aléatoire de jeux
-- 📚 Découverte de livres
-- 🔄 Navigation fluide avec React Router
-- 📱 Interface responsive
-- 🎨 Design clair et moderne
+- 🎲 Générateur aléatoire de jeux ou livres
+- 🎮 Filtrage par catégorie ou tag
+- 🖼️ Affichage de l'image et de la description
+- 🔗 Lien direct pour jouer ou lire
+- ⏳ Spinner de chargement pendant la récupération des données
+- 📱 Design responsive
+- ⚛️ Navigation entre pages avec React Router
 
 ---
 
@@ -22,6 +25,9 @@ https://zakariaeadadi.github.io/PlayRead/
 - ⚛️ React
 - 🧭 React Router (v7)
 - 🎨 CSS
+- 🪄 Material UI
+- 📡 Axios
+- 🌐 API externes (FreeToGame API et Google Books API)
 - 🚀 Déploiement avec GitHub Pages
 
 ---
@@ -42,6 +48,14 @@ Ce projet a été réalisé afin de :
 - Déployer une application en production
 
 ---
+
+## 💡 Remarques
+
+- Les données des jeux sont récupérées depuis *FreeToGame API*  
+- Les données des livres sont récupérées depuis *Google Books API*  
+- Chaque page a un design distinct pour différencier les sections jeux et livres
+
+  ---
 
 ## 👨‍💻 Auteur
 
